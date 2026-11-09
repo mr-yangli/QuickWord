@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/QuickWord/QuickWord.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/QuickWord.Tests/QuickWord.Tests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/QuickWord.Sample/QuickWord.Sample.csproj" />
+  </Folder>
+</Solution>
