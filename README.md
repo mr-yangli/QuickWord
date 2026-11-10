@@ -7,7 +7,7 @@ MIT 协议，零第三方依赖。
 ## 安装
 
 ```bash
-dotnet add package QuickWord --prerelease
+dotnet add package QuickWord
 ```
 
 ## 快速上手
@@ -37,6 +37,8 @@ dotnet test tests/QuickWord.Tests/QuickWord.Tests.csproj
 ## 文档
 
 见 [docs/quickword-usage.md](docs/quickword-usage.md)。
+
+版本改动见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## License
 

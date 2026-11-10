@@ -7,16 +7,16 @@
 ## 安装
 
 ```bash
-dotnet add package QuickWord --prerelease
+dotnet add package QuickWord
 ```
 
-或 csproj 写死版本号：
+或 csproj 写死版本号（稳定档，不带旗标即可）：
 
 ```xml
-<PackageReference Include="QuickWord" Version="0.1.0-beta.5" />
+<PackageReference Include="QuickWord" Version="10.0.0" />
 ```
 
-命名空间 `QuickWord`，一行 `using QuickWord;` 就够。预发布系列装不到时先清缓存：`dotnet nuget locals http-cache --clear`。
+命名空间 `QuickWord`，一行 `using QuickWord;` 就够。新版本刚推送装不到时先清缓存：`dotnet nuget locals http-cache --clear`。
 
 ## 快速上手
 
