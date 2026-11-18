@@ -6,8 +6,8 @@
     <NoWarn>$(NoWarn);CS1591</NoWarn>
 
     <PackageId>QuickWord</PackageId>
-    <Description>Streaming, zero-dependency .docx table export and read-back for .NET 10. Standalone: carries its own column model, no reference to QuickExcel. Export memory is O(1) in row count.</Description>
-    <PackageTags>word;docx;export;import;performance;dotnet10</PackageTags>
+    <Description>Streaming, zero-dependency .docx table export and read-back for .NET 10 / .NET 11. Standalone: carries its own column model, no reference to QuickExcel. Export memory is O(1) in row count.</Description>
+    <PackageTags>word;docx;export;import;performance;dotnet10;dotnet11</PackageTags>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 

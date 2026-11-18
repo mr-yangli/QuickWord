@@ -1,6 +1,6 @@
 # QuickWord 使用文档
 
-**QuickWord** 是面向 .NET 10 的 Word（`.docx`）库：**表格数据导出 + 文档读回**双向都有，另能在**不改版式**的前提下填别人排好的模板（`{{标签}}` 与图片占位）。**零第三方依赖**（纯 BCL，不牵入 QuickExcel），写侧逐行流式序列化，内存 O(列数)、与行数无关。本文件同时也是 NuGet 包内 README。
+**QuickWord** 是面向 .NET 10 / .NET 11 的 Word（`.docx`）库：**表格数据导出 + 文档读回**双向都有，另能在**不改版式**的前提下填别人排好的模板（`{{标签}}` 与图片占位）。**零第三方依赖**（纯 BCL，不牵入 QuickExcel），写侧逐行流式序列化，内存 O(列数)、与行数无关。本文件同时也是 NuGet 包内 README。
 
 > 与 QuickExcel 各自带一套**同名同形但互不相认**的列特性（`[WordColumn]` 一族）——POCO 上写的 `[ExcelColumn]` 对 QuickWord 无效，要两边生效就各写各的。
 
@@ -13,7 +13,7 @@ dotnet add package QuickWord
 或 csproj 写死版本号（稳定档，不带旗标即可）：
 
 ```xml
-<PackageReference Include="QuickWord" Version="10.0.0" />
+<PackageReference Include="QuickWord" Version="10.1.0" />
 ```
 
 命名空间 `QuickWord`，一行 `using QuickWord;` 就够。新版本刚推送装不到时先清缓存：`dotnet nuget locals http-cache --clear`。
